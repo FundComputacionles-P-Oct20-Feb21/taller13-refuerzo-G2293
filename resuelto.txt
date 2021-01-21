@@ -1,0 +1,21 @@
+1. Inicio
+2. funcion principal()
+3.   k, d[0-n] <-- 1920
+4.   k1, d[0-n] <-- k
+5.   residuo, i[0-n]
+6.   j, i[0-n] <==0
+7.   Mientras k1 > 0 entonces
+8.           residuo <-- obtenerresiduo(k)
+9.                 << residuo + " * 10 elevado a la potencia "+ j 
+10.                       j <-- j + 1
+11.                      k1 <-- k1 / 10
+12.  Fin Mientras
+13.  Fin funcion principal() 
+  
+14.  funcion obtenerresiduo(r, int)
+15.       r <-- r MOD 10
+16.       return r
+17.  Fin funcion obtenerresiduo
+     funcion obtenerdivicion()
+      
+18.  fin
